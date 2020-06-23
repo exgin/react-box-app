@@ -41,4 +41,5 @@ it('should make a new box', function () {
   expect(box).toBeInTheDocument();
 
   const rmBtn = getByText('Remove', { exact: false });
+  expect(rmBtn).toBeInTheDocument();
 });
